@@ -1,18 +1,16 @@
-# vue-cv
+# react-cv
 
 CV &amp; Resume created with Vue and JSON
 
-Vue is best javascript framework I’ve ever been learned.
+This is caind of a remake on my vue-cv project
 
-For that reason, I decided to make my CV framed in Vue.
-
-An online live demo is [here](http://arso-cv.us.to/).
+An online live demo is [here](http://smanzy-cv.us.to/).
 
 ## Installation
 
 ```sh
-mkdir vue-cv
-cd vue-cv
+mkdir react-cv
+cd react-cv
 ```
 
 Clone this [git](https://github.com/ristep/vue-cv.git) or extract [.zip](https://github.com/ristep/vue-cv/archive/master.zip) in created `vue-cv`, then:
@@ -53,7 +51,7 @@ Want to contribute? Great! :)
 - Some editor for `cv.json`.
 - Write some Tests.
 - Add Night Mode :)
-- React version
+- Angular Version
 
 ### License
 
