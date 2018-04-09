@@ -13,7 +13,7 @@ mkdir react-cv
 cd react-cv
 ```
 
-Clone this [git](https://github.com/ristep/vue-cv.git) or extract [.zip](https://github.com/ristep/vue-cv/archive/master.zip) in created `vue-cv`, then:
+Clone this [git](https://github.com/ristep/react-cv.git) or extract [.zip](https://github.com/ristep/react-cv/archive/master.zip) in created `react-cv`, then:
 
 ```sh
 yarn
