@@ -2,7 +2,7 @@
 
 CV &amp; Resume created with Vue and JSON
 
-This is caind of a remake on my vue-cv project
+This is a kind of a remake of my 'vue-cv' project.
 
 An online live demo is [here](http://smanzy.us.to/react-cv).
 
