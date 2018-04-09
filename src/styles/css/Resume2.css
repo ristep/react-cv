@@ -1,0 +1,191 @@
+#rez2 {
+  background: white;
+  font-family: "Forum", cursive;
+  font-size: 16px;
+  color: #222; }
+  @media print {
+    #rez2 .page-break {
+      page-break-inside: avoid; }
+    @page div {
+      #rez2 {
+        padding: 50px; } }
+    #rez2 #cv {
+      box-shadow: none !important; } }
+  #rez2 .mspace {
+    height: 3px;
+    /* Can be anything */
+    position: relative;
+    background: white;
+    border-radius: 3px;
+    padding: 0px; }
+  #rez2 .level {
+    height: 3px;
+    /* Can be anything */
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: rgba(202, 185, 160, 0.808);
+    border-radius: 3px;
+    padding: 0px; }
+  #rez2 #top {
+    font-family: "Forum", cursive;
+    font-size: 16px;
+    color: #222; }
+  #rez2 .clear {
+    clear: both; }
+  #rez2 p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #444;
+    padding-bottom: 0px; }
+  #rez2 #cv {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto;
+    box-shadow: 2px 3px 9px 2px #969696; }
+  #rez2 .mainDetails {
+    padding: 25px 35px;
+    border-bottom: 2px solid #cc8d2f;
+    background: #ededed; }
+  #rez2 #name h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: "Karma", serif;
+    margin-bottom: -6px; }
+  #rez2 #name h2 {
+    font-size: 2em;
+    margin-left: 2px;
+    font-family: "Karma", serif; }
+  #rez2 #mainArea {
+    padding: 0 40px; }
+  #rez2 #headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px; }
+  #rez2 #headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px; }
+  #rez2 #name {
+    float: left; }
+  #rez2 #contactDetails {
+    float: right; }
+  #rez2 #contactDetails ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 0px; }
+  #rez2 #contactDetails ul li {
+    margin-bottom: 0px;
+    color: #444; }
+  #rez2 #contactDetails ul li a,
+  #rez2 a[href^='tel'] {
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s ease-in; }
+  #rez2 #contactDetails ul li a:hover {
+    color: #b96418; }
+  #rez2 section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0; }
+  #rez2 section:first-child {
+    border-top: 0; }
+  #rez2 section:last-child {
+    padding: 20px 0 10px; }
+  #rez2 .sectionTitle {
+    float: left;
+    width: 25%; }
+  #rez2 .sectionContent {
+    float: right;
+    width: 72.5%; }
+  #rez2 .sectionTitle h1 {
+    font-family: "Karma", serif;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #b96418; }
+  #rez2 .sectionContent h2 {
+    font-family: "Karma", serif;
+    font-size: 1.5em;
+    margin-bottom: 0px; }
+  #rez2 .subDetails {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px; }
+  #rez2 .keySkills {
+    list-style-type: none;
+    column-count: 3;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #444; }
+  #rez2 .keySkills ul li {
+    margin-bottom: 3px; }
+  @media all and (min-width: 602px) and (max-width: 800px) {
+    #rez2 #headshot {
+      display: none; }
+    #rez2 .keySkills {
+      column-count: 2; } }
+  @media all and (max-width: 601px) {
+    #rez2 #cv {
+      width: 95%;
+      margin: 10px auto;
+      min-width: 280px; }
+    #rez2 #headshot {
+      display: none; }
+    #rez2 #name,
+    #rez2 #contactDetails {
+      float: none;
+      width: 100%;
+      text-align: center; }
+    #rez2 .sectionTitle,
+    #rez2 .sectionContent {
+      float: none;
+      width: 100%; }
+    #rez2 .sectionTitle {
+      margin-left: -2px;
+      font-size: 1.25em; }
+    #rez2 .keySkills {
+      column-count: 2; } }
+  @media all and (max-width: 480px) {
+    #rez2 .mainDetails {
+      padding: 15px 15px; }
+    #rez2 section {
+      padding: 15px 0 0; }
+    #rez2 #mainArea {
+      padding: 0 25px; }
+    #rez2 .keySkills {
+      column-count: 1; }
+    #rez2 #name h1 {
+      line-height: 0.8em;
+      margin-bottom: 4px; } }
+@keyframes reset {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  #rez2 .instaFade {
+    animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in; }
+  #rez2 .quickFade {
+    animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in; }
+  #rez2 .delayOne {
+    animation-delay: 0, 0.5s; }
+  #rez2 .delayTwo {
+    animation-delay: 0, 1s; }
+  #rez2 .delayThree {
+    animation-delay: 0, 1.5s; }
+  #rez2 .delayFour {
+    animation-delay: 0, 2s; }
+  #rez2 .delayFive {
+    animation-delay: 0, 2.5s; }
+
+/*# sourceMappingURL=Resume2.css.map */

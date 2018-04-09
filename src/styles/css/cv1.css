@@ -1,0 +1,193 @@
+#cv1 {
+  background: white;
+  font-family: "Forum", cursive;
+  font-size: 16px;
+  color: #222; }
+  @media print {
+    #cv1 .no-print, #cv1 .no-print * {
+      display: none !important; }
+    #cv1 #cv {
+      box-shadow: none !important; } }
+  #cv1 .cuci {
+    margin-bottom: 5px; }
+  #cv1 .mspace {
+    height: 3px;
+    /* Can be anything */
+    position: relative;
+    background: white;
+    border-radius: 3px;
+    padding: 0px; }
+  #cv1 .level {
+    height: 3px;
+    /* Can be anything */
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: #d9ad7c;
+    border-radius: 3px;
+    padding: 0px; }
+  #cv1 .clear {
+    clear: both; }
+  #cv1 p {
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 0px;
+    color: #444;
+    padding-bottom: 0px; }
+  #cv1 #cv {
+    width: 90%;
+    max-width: 1000px;
+    background: #f3f3f3;
+    margin: 20px auto;
+    box-shadow: 2px 3px 9px 2px #969696; }
+  #cv1 .mainDetails {
+    padding: 20px 30px;
+    border-bottom: 2px solid #a2836e;
+    background: #ededed;
+    max-height: 128px; }
+  #cv1 #name h1 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Arima Madurai";
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 2px #674d3c; }
+  #cv1 #name h2 {
+    font-size: 26px;
+    margin-left: 2px;
+    font-family: "Playfair Display", serif;
+    color: #674d3c; }
+  #cv1 #mainArea {
+    padding: 0 40px; }
+  #cv1 #headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px; }
+  #cv1 #headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px; }
+  #cv1 #name {
+    float: left; }
+  #cv1 #contactDetails {
+    float: right; }
+  #cv1 #contactDetails ul {
+    list-style-type: none;
+    font-size: 1em;
+    margin-top: 0px; }
+  #cv1 #contactDetails ul li {
+    margin-bottom: 0px;
+    color: #fff2df;
+    text-shadow: 1px 1px 1px #674d3c; }
+    #cv1 #contactDetails ul li a, #cv1 #contactDetails ul li a[href^='tel'] {
+      text-decoration: none;
+      transition: all 0.3s ease-in;
+      color: #fff2df;
+      text-shadow: 1px 1px 1px #674d3c; }
+  #cv1 #contactDetails ul li a:hover {
+    color: #674d3c; }
+  #cv1 section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0; }
+  #cv1 section:first-child {
+    border-top: 0; }
+  #cv1 section:last-child {
+    padding: 20px 0 10px; }
+  #cv1 .sectionTitle {
+    float: left;
+    width: 25%; }
+  #cv1 .sectionContent {
+    float: right;
+    width: 72.5%; }
+  #cv1 .sectionTitle h1 {
+    font-family: "Courgette", cursive;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #a2836e; }
+  #cv1 .sectionContent h2 {
+    font-family: "Arima Madurai";
+    font-size: 1.5em;
+    margin-bottom: -2px; }
+  #cv1 .subDetails {
+    font-size: 1em;
+    font-style: italic;
+    margin-bottom: 3px;
+    color: #674d3c; }
+  #cv1 .keySkills {
+    list-style-type: none;
+    column-count: 3;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #796a6a; }
+  #cv1 .keySkills ul li {
+    margin-bottom: 3px; }
+  @media all and (min-width: 602px) and (max-width: 800px) {
+    #cv1 #headshot {
+      display: none; }
+    #cv1 .keySkills {
+      column-count: 2; } }
+  @media all and (max-width: 601px) {
+    #cv1 #cv {
+      width: 95%;
+      margin: 10px auto;
+      min-width: 280px; }
+    #cv1 #headshot {
+      display: none; }
+    #cv1 #name,
+    #cv1 #contactDetails {
+      float: none;
+      width: 100%;
+      text-align: center; }
+    #cv1 .sectionTitle,
+    #cv1 .sectionContent {
+      float: none;
+      width: 100%; }
+    #cv1 .sectionTitle {
+      margin-left: -2px;
+      font-size: 1.25em; }
+    #cv1 .keySkills {
+      column-count: 2; } }
+  @media all and (max-width: 480px) {
+    #cv1 .mainDetails {
+      padding: 15px 15px; }
+    #cv1 section {
+      padding: 15px 0 0; }
+    #cv1 #mainArea {
+      padding: 0 25px; }
+    #cv1 .keySkills {
+      column-count: 1; }
+    #cv1 #name h1 {
+      line-height: 0.8em;
+      margin-bottom: 4px; } }
+@keyframes reset {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  #cv1 .instaFade {
+    animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in; }
+  #cv1 .quickFade {
+    animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in; }
+  #cv1 .delayOne {
+    animation-delay: 0, 0.5s; }
+  #cv1 .delayTwo {
+    animation-delay: 0, 1s; }
+  #cv1 .delayThree {
+    animation-delay: 0, 1.5s; }
+  #cv1 .delayFour {
+    animation-delay: 0, 2s; }
+  #cv1 .delayFive {
+    animation-delay: 0, 2.5s; }
+
+/*# sourceMappingURL=cv1.css.map */

@@ -1,0 +1,64 @@
+// @import './w3.scss'; // lokalno za proba
+@import 'https://www.w3schools.com/w3css/4/w3.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+#home {
+
+	img {
+		width: 98%;
+	}
+
+	$fnt-par:  'Forum', cursive;
+	$fnt-h1:   'Karma', serif;
+	$fnt-h2:   'Playfair Display', serif;
+
+	$h1color: rgba(0, 149, 134, 0.548);
+	$h2color: rgb(0, 149, 135);
+
+	html,div,h1,h2,h3,h4,h5,h6 {
+	   font-family: $fnt-h1;
+//		 margin: 0px;
+	}
+
+	h1 {
+	 font-size: 2em;
+	 color: $h2color;
+	 text-shadow: 0px 0px 0.04em $h2color;
+	}
+	h2 {
+	 font-size: 1.2em;
+	 color: $h2color;
+	 text-shadow: 1px 1px 0 $h1color;
+	}
+	h4 {
+	 font-size: 1.3em;
+	 text-shadow: 0px 0px 0 $h2color;
+	 color: $h1color;
+	}
+
+	.rp-paro {
+		margin-top: 5px;
+	}
+
+	.rp-icn {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.rp-icon {
+		max-width: 32px;
+	}
+
+	.rp-link {
+		color: teal;
+	}
+
+	p {
+		font-family: $fnt-par;
+		margin: 0px;
+	}
+	.clear {
+	 clear: both;
+	}
+
+}

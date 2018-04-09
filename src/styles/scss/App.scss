@@ -1,0 +1,39 @@
+// @import url("https://fonts.googleapis.com/css?family=Forum|Karma:300,400,700|Playfair+Display:400,400i,900&amp;subset=cyrillic");
+// font-family: 'Karma', serif;
+// font-family: 'Playfair Display', serif;
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Courgette|Forum|Lustria|Yeon+Sung');
+// font-family: 'Forum', cursive;
+// font-family: 'Arima Madurai', cursive;
+// font-family: 'Lustria', serif;
+// font-family: 'Yeon Sung', cursive;
+// font-family: 'Courgette', cursive;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(218, 24, 24);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
