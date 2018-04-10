@@ -1,5 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
+//import { Router, Switch, Route } from 'react-router';
+
 import Home from './Home'
 import Resume1 from './Resume1'
 import Resume2 from './Resume2'
@@ -20,4 +22,4 @@ const Main = () => (
   </main>
 )
 
-export default Main
+export default Main;

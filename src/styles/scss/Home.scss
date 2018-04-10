@@ -1,5 +1,5 @@
-// @import './w3.scss'; // lokalno za proba
-@import 'https://www.w3schools.com/w3css/4/w3.css';
+@import './w3.scss'; // lokalno za proba
+// @import 'https://www.w3schools.com/w3css/4/w3.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 
 #home {
@@ -17,7 +17,7 @@
 
 	html,div,h1,h2,h3,h4,h5,h6 {
 	   font-family: $fnt-h1;
-//		 margin: 0px;
+		 margin: 0px;
 	}
 
 	h1 {

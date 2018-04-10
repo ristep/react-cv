@@ -6,7 +6,7 @@ import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 
 render((
-  <BrowserRouter>
+  <BrowserRouter basename={'/react-cv'}>
     <App />
   </BrowserRouter>
 ), document.getElementById('root'));
